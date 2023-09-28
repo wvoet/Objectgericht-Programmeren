@@ -26,10 +26,10 @@ public class Oef12 {
 
     }
     public static int getAsciiValue(char character) {
-        return (int) character;}
+        return character;}
     public static int getAlphabetPlace(char character) {
         int number = getAsciiValue(character);
-        return (int) number - 96;
+        return number - 96;
     }
     public static char getAscii(int asciiValue) {
         return (char) asciiValue;
