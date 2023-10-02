@@ -1,4 +1,4 @@
-public class Oef12 {
+public class Oef08 {
 
     public static void main(String[] args) {
         char letter = 'a'; // vul hier de letter a in
