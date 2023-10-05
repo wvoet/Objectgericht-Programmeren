@@ -1,5 +1,4 @@
 import java.util.Random;
-import java.util.Random.*;
 public class Oef01 {
 
     public static void main(String[] args) {
