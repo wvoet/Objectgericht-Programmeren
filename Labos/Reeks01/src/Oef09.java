@@ -1,6 +1,9 @@
+import static java.lang.Math.random;
+
 public class Oef09 {
     public static void main(String[] args) {
-        double x = -0.5;
+        double x;
+        x = random(-1000,1000);
         int teller = 1;
         int noemer = 2;
         double breuk = (1.0*teller) / noemer;
@@ -19,6 +22,6 @@ public class Oef09 {
         }
         double bgsin = x + midden;
         System.out.println(bgsin);
-        System.out.println(Math.asin(-0.5));
+        System.out.println(Math.asin(x));
     }
 }

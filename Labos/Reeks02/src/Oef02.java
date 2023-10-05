@@ -1,0 +1,2 @@
+public class Oef02 {
+}
