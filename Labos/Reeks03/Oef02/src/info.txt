@@ -1,0 +1,13 @@
+Werk verder in het project Geldzaken. Voeg een java-klasse met naam Persoon toe.
+Elk object van deze klasse wordt gekenmerkt door een (familie)naam, een voornaam, een zichtrekening en een spaarrekening. De eerste twee gegevens zijn van type String, de laatste twee gegevens zijn van type Rekening.
+Schrijf een constructor. De oproep van de constructor gebeurt met één parameter, bijvoorbeeld
+Persoon president = new Persoon("Kennedy, John Fitzgerald");
+Uit die parameter wordt de familienaam en de voornaam gehaald. (Zorg dat er geen spaties meer rond de namen staan.) Beide rekeningen van een persoon bestaan wel, maar bevatten geen geld.
+Voor geen van de vier instantievariabelen wordt er een getter-methode geschreven; ga meteen door naar volgend punt.
+Schrijf een methode getSaldoZicht(). Deze methode zal het saldo van de zichtrekening teruggeven.
+Schrijf een methode getVermogen(). Deze methode zal het volledige vermogen (saldo van beide rekeningen samen) teruggeven.
+Schrijf een methode versluisNaarSpaar(bedrag). Deze methode zal een gegeven bedrag van de zicht- naar de spaarrekening overschrijven. Uitzondering: indien de meegegeven parameter negatief is, gebeurt er niets. De methode geeft niets terug.
+Schrijf een methode zetOpRekening(bedrag, opSpaar). Deze methode zal een gegeven bedrag aan één van beide rekeningen van de huidige persoon toevoegen. Indien de tweede parameter true is, dan wordt het geld op de spaarrekening gestort; in het andere geval op de zichtrekening. De methode geeft niets terug.
+Schrijf een methode geefZakgeldAan(anderePersoon, bedrag). Deze methode zal een gegeven bedrag van de zichtrekening van de huidige persoon halen, en toevoegen aan de zichtrekening van de andere persoon (de eerste parameter). De methode geeft niets terug.
+Schrijf een methode geefSpaarcentAan(anderePersoon, bedrag). Deze methode zal een gegeven bedrag van de zichtrekening van de huidige persoon halen, en toevoegen aan de spaarrekening van de andere persoon (de eerste parameter).
+Schrijf de toString()-methode. Indien deze methode wordt aangeroepen op een object dat aangemaakt werd met de code new Persoon("Duck, Donald"), dan geeft deze methode volgende string terug: Donald Duck (zicht € 0.0, spaar € 0.0)
