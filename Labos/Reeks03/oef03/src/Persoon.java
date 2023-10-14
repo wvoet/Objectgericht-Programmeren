@@ -1,4 +1,4 @@
-public class Persoon extends main{
+public class Persoon extends Geldzaken {
     String voornaam;
     String achternaam;
     Rekening spaarrekening;
@@ -9,6 +9,8 @@ public class Persoon extends main{
         String[] split = naam.split(",");
         this.voornaam = split[0].trim();
         this.achternaam = split[1].trim();
+        this.spaarrekening = new Rekening(0);
+        this.zichtrekening = new Rekening(0);
     }
     double getSaldoZicht(){
         return zichtrekening.getRekening();
@@ -42,7 +44,8 @@ public class Persoon extends main{
         }
     }
 
-    String toString(Persoon persoon) {
-        return persoon.voornaam + " " + persoon.achternaam + " (zicht € " + persoon.zichtrekening.getRekening() + ", spaar € " + persoon.spaarrekening.getRekening()+")";
+    public String toStr() {
+        String str = (this.voornaam + " " + this.achternaam + " (zicht € " + this.zichtrekening.toStr() + ", spaar € " + this.spaarrekening.toStr() + ")").toString();
+        return str;
     }
 }

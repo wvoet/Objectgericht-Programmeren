@@ -1,0 +1,10 @@
+Werk verder in het project Geldzaken. Werk in het bestand dat het hoofdprogramma bevat. (Maak desnoods een dergelijk bestand aan.)
+Schrijf een hoofdprogramma dat volgende zaken uitvoert.
+
+Drie personen (nl. moeder, zoon en dochter) worden aangemaakt. Kies zelf namen voor de familieleden.
+De kinderen starten zonder geld. De moeder heeft € 5000.00 spaargeld en € 1000.00 op haar zichtrekening.
+Schrijf de gegevens van de drie familieleden uit.
+De zoon is reeds student; hij krijgt € 70.00 zakgeld. De dochter is nog klein; zij krijgt € 5.50 zakgeld.
+Beide kinderen krijgen van hun moeder € 30.00 op hun spaarboekje.
+Tot slot schrijft de moeder nog een bedrag over naar haar spaarboekje, zodat er € 600.00 overblijft op haar zichtrekening. (Je schrijft hiervoor geen nieuwe methodes in de klassen Persoon en/of Rekening!)
+Schrijf de gegevens van de drie familieleden opnieuw uit. Klopt de som?

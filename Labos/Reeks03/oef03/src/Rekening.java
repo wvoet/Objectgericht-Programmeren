@@ -1,5 +1,5 @@
-public class Rekening extends main {
-    private double saldo;
+public class Rekening extends Geldzaken {
+    double saldo = 0;
     public Rekening(double startbedrag) {
         saldo = startbedrag;
     }
@@ -16,7 +16,7 @@ public class Rekening extends main {
         rekening1.saldo = rekening1.saldo + bedrag;
         saldo = saldo - bedrag;
     }
-    public String toString() {
-        return "€" + saldo;
+    public String toStr() {
+        return ("€" + saldo).toString();
     }
 }

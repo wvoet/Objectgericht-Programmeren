@@ -1,4 +1,4 @@
-Werk verder in het project Geldzaken. Voeg een java-klasse met naam Persoon toe.
+Werk verder in het project main. Voeg een java-klasse met naam Persoon toe.
 Elk object van deze klasse wordt gekenmerkt door een (familie)naam, een voornaam, een zichtrekening en een spaarrekening. De eerste twee gegevens zijn van type String, de laatste twee gegevens zijn van type Rekening.
 Schrijf een constructor. De oproep van de constructor gebeurt met één parameter, bijvoorbeeld
 Persoon president = new Persoon("Kennedy, John Fitzgerald");
