@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Project/BoggleDeel1/BoggleDeel1.iml" filepath="$PROJECT_DIR$/Project/BoggleDeel1/BoggleDeel1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Labos.iml" filepath="$PROJECT_DIR$/.idea/Labos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reeks03/Oef02/Oef02.iml" filepath="$PROJECT_DIR$/Reeks03/Oef02/Oef02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reeks01/Reeks01.iml" filepath="$PROJECT_DIR$/Reeks01/Reeks01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reeks02/Reeks02.iml" filepath="$PROJECT_DIR$/Reeks02/Reeks02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reeks04/Reeks04.iml" filepath="$PROJECT_DIR$/Reeks04/Reeks04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reeks03/oef01_budget_rekening/oef01_budget_rekening.iml" filepath="$PROJECT_DIR$/Reeks03/oef01_budget_rekening/oef01_budget_rekening.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reeks03/oef03/oef03.iml" filepath="$PROJECT_DIR$/Reeks03/oef03/oef03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/test/test.iml" filepath="$PROJECT_DIR$/Project/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/testplatform/testplatform.iml" filepath="$PROJECT_DIR$/Project/testplatform/testplatform.iml" />
+    </modules>
+  </component>
+</project>
